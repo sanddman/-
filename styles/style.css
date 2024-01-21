@@ -93,6 +93,8 @@ body {
 .button-home {
     text-decoration: none;
     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 6px;
     padding-top: 5px;
     width: 120px;
@@ -111,6 +113,8 @@ body {
 
 .button-service {
     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 6px;
     padding-top: 5px;
     width: 120px;
@@ -130,6 +134,8 @@ body {
 
 .button-price-list {
     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 6px;
     padding-top: 5px;
     width: 120px;
@@ -151,6 +157,8 @@ body {
 
 .button-contacts {
     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 6px;
     padding-top: 5px;
     width: 120px;
@@ -170,7 +178,10 @@ body {
 }
 
 .button-about-us {
+    white-space: nowrap;
     margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 6px;
     padding-top: 5px;
     width: 120px;
@@ -193,7 +204,6 @@ body {
 
 .main-preview {
     background:url(../images/photo_2023-07-29_22-01-05.jpg);
-    height: 95vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -248,6 +258,10 @@ body {
 
 .button-sign-up:hover {
     background-color: rgb(99, 115, 255);
+}
+
+.space-main {
+    height: 70px;
 }
 
 /* All servies in one place */
@@ -621,6 +635,262 @@ footer {
   }
   
 
+@media (max-width: 980px) {
+
+.header {
+    height: 50px;
+    background-color: rgb(68, 109, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-left: 5%;
+    display: flex;
+    color: #000;
+    text-decoration: none;
+}
+
+.img-gear {
+    height: 30px;
+    margin-top: 10px;
+    display: block;
+}
+
+.logo-text {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size:xx-large;
+    margin-left: 8px;
+}
+
+.extra-information-header {
+    display: flex;
+}
+
+.img-clock {
+    height: 20px;
+    margin-top: 14px;
+}
+
+.time-work {
+    white-space: nowrap;
+    font-size: small;
+    margin-top: 17px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+.img-phone {
+    margin-left: 20px;
+    height: 17px;
+    margin-top: 16px;
+}
+
+.phone-number {
+    font-size: small;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5%;
+    font-weight: 500;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+
+.phone-number:hover {
+    background: rgb(64, 0, 255);
+}
+
+    /* Menu */
+
+.menu {
+    margin-top: -1px;
+    background-color: rgb(33, 33, 33);
+    padding-right: 25%;
+    padding-left: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+/* buttons */
+
+.button-home {
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+    padding-top: 5px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+.button-home:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+.button-service {
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+    padding-top: 5px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-service:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+.button-price-list {
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+    padding-top: 5px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-price-list:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+
+.button-contacts {
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+    padding-top: 5px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-contacts:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+.button-about-us {
+    white-space: nowrap;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+    padding-top: 5px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-about-us:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+/* Main */
+
+.main-preview {
+    background:url(../images/photo_2023-07-29_22-01-05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.diagnostick-and-repair {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 45px;
+    margin-left: 100px;
+    padding-top: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.img-check-mark1 {
+    height: 22px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.img-check-mark {
+    height: 22px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.services-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    vertical-align: 3px;
+}
+
+.button-sign-up {
+    display: block;
+    margin-left: 100px;
+    margin-top: 40px;
+    padding-top: 15px;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(66, 69, 253);
+    color: rgb(0, 0, 0);
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.1s linear;
+}
+
+.button-sign-up:hover {
+    background-color: rgb(99, 115, 255);
+}
+
+}
+
 @media (max-width: 700px) {
     .header {
         height: 40px;
@@ -637,12 +907,12 @@ footer {
     
     .img-gear {
         height: 20px;
-        margin-top: 7px;
+        margin-top: 10px;
         display: block;
     }
     
     .logo-text {
-        margin-top: 3px;
+        margin-top: 5px;
         font-weight: 600;
         font-size:x-large;
         margin-left: 8px;
@@ -653,24 +923,24 @@ footer {
     }
     
     .img-clock {
-        height: 20px;
+        height: 17px;
         margin-top: 10px;
     }
     
     .time-work {
-        margin-top: 10px;
+        margin-top: 11px;
         font-weight: 500;
         margin-left: 3px;
     }
     
     .img-phone {
-        margin-left: 30px;
-        height: 18px;
-        margin-top: 10px;
+        margin-left: 13px;
+        height: 14px;
+        margin-top: 12px;
     }
     
     .phone-number {
-        margin-top: 6px;
+        margin-top: 4px;
         margin-bottom: 8px;
         padding-top: 7px;
         padding-left: 5px;
@@ -690,8 +960,8 @@ footer {
 
 .menu {
     background-color: rgb(33, 33, 33);
-    padding-right: 25%;
-    padding-left: 25%;
+    padding-right: 15%;
+    padding-left: 15%;
     height: 40px;
     display: flex;
     justify-content: space-around;
@@ -763,11 +1033,26 @@ footer {
     background-color: rgb(83, 83, 83);
 }
 
+.button-about-us {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    background: none;
+    border: none;
+}
+
+.button-about-us:hover {
+    background-color: rgb(83, 83, 83);
+}
+
 /* Main */
 
 .main-preview {
     background:url(../images/photo_2023-07-29_22-01-05.jpg);
-    height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -777,21 +1062,21 @@ footer {
     color: #fff;
     font-weight: 500;
     font-size: 40px;
-    margin-left: 150px;
-    padding-top: 130px;
+    margin-left: 100px;
+    padding-top: 90px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 
 .img-check-mark1 {
     height: 17px;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 20px;
 }
 
 .img-check-mark {
     height: 17px;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 15px;
 }
 
@@ -804,8 +1089,8 @@ footer {
 }
 
 .button-sign-up {
-    margin-top: 40px;
-    margin-left: 150px;
+    margin-top: 20px;
+    margin-left: 100px;
     width: 200px;
     height: 33px;
     background-color: rgb(66, 69, 253);
@@ -821,6 +1106,10 @@ footer {
 
 .button-sign-up:hover {
     background-color: rgb(99, 115, 255);
+}
+
+.space-main {
+    height: 50px;
 }
 
 /* All servies in one place */
@@ -1158,7 +1447,7 @@ footer {
 
 @media (max-width: 600px) {
     .header {
-        height: 40px;
+        height: 30px;
         background-color: rgb(68, 109, 255);
         display: flex;
         justify-content: space-around;
@@ -1171,13 +1460,13 @@ footer {
     }
     
     .img-gear {
-        height: 20px;
-        margin-top: 7px;
+        height: 18px;
+        margin-top: 6px;
         display: block;
     }
     
     .logo-text {
-        margin-top: 6px;
+        margin-top: 4px;
         font-weight: 600;
         font-size:large;
         margin-left: 8px;
@@ -1189,25 +1478,25 @@ footer {
     
     .img-clock {
         height: 15px;
-        margin-top: 12px;
+        margin-top: 7px;
     }
     
     .time-work {
         font-size: 12px;
-        margin-top: 10px;
+        margin-top: 8px;
         font-weight: 500;
         margin-left: 3px;
     }
     
     .img-phone {
-        margin-left: 30px;
-        height: 10px;
-        margin-top: 15px;
+        margin-left: 10px;
+        height: 12px;
+        margin-top: 9px;
     }
     
     .phone-number {
         font-size: 12px;
-        margin-top: 6px;
+        margin-top: 1px;
         margin-bottom: 8px;
         padding-top: 7px;
         padding-left: 5px;
@@ -1227,8 +1516,8 @@ footer {
 
 .menu {
     background-color: rgb(33, 33, 33);
-    padding-right: 25%;
-    padding-left: 25%;
+    padding-right: 15%;
+    padding-left: 15%;
     height: 30px;
     display: flex;
     justify-content: space-around;
@@ -1237,10 +1526,10 @@ footer {
  /* buttons */
 
 .button-home {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 6px;
+    padding-top: 0px;
     width: 100px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1253,10 +1542,10 @@ footer {
 }
 
 .button-service {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 6px;
+    padding-top: 0px;
     width: 100px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1269,10 +1558,10 @@ footer {
 }
 
 .button-price-list {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 6px;
+    padding-top: 0px;
     width: 100px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1286,10 +1575,10 @@ footer {
 
 
 .button-contacts {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 6px;
+    padding-top: 0px;
     width: 100px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1301,11 +1590,26 @@ footer {
     background-color: rgb(83, 83, 83);
 }
 
+.button-about-us {
+    margin-top: 6px;
+    padding-top: 0px;
+    width: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    background: none;
+    border: none;
+}
+
+.button-about-us:hover {
+    background-color: rgb(83, 83, 83);
+}
+
 /* Main */
 
 .main-preview {
     background:url(../images/photo_2023-07-29_22-01-05.jpg);
-    height: 65vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1315,20 +1619,20 @@ footer {
     color: #fff;
     font-weight: 500;
     font-size: 35px;
-    margin-left: 100px;
-    padding-top: 100px;
+    margin-left: 70px;
+    padding-top: 50px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .img-check-mark1 {
     height: 16px;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 20px;
 }
 
 .img-check-mark {
     height: 16px;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 15px;
 }
 
@@ -1342,9 +1646,9 @@ footer {
 
 .button-sign-up {
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 70px;
     width: 170px;
-    height: 30px;
+    height: 28px;
     background-color: rgb(66, 69, 253);
     color: rgb(0, 0, 0);
     border: 0;
@@ -1359,6 +1663,11 @@ footer {
 .button-sign-up:hover {
     background-color: rgb(99, 115, 255);
 }
+
+.space-main {
+    height: 40px;
+}
+
 }
 
 @media (max-width: 500px) {
@@ -1382,10 +1691,10 @@ footer {
     }
     
     .logo-text {
-        margin-top: 6px;
+        margin-top: 5px;
         font-weight: 600;
-        font-size:small;
-        margin-left: 8px;
+        font-size:15px;
+        margin-left: 6px;
     }
     
     .extra-information-header {
@@ -1398,8 +1707,8 @@ footer {
     }
     
     .time-work {
-        font-size: 12px;
-        margin-top: 8px;
+        font-size: 8px;
+        margin-top: 9px;
         font-weight: 500;
         margin-left: 3px;
     }
@@ -1407,12 +1716,12 @@ footer {
     .img-phone {
         margin-left: 10px;
         height: 10px;
-        margin-top: 10px;
+        margin-top: 9px;
     }
     
     .phone-number {
-        font-size: 12px;
-        margin-top: 1px;
+        font-size: 8px;
+        margin-top: 2px;
         margin-bottom: 8px;
         padding-top: 7px;
         padding-left: 2px;
@@ -1433,7 +1742,7 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1449,7 +1758,7 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1465,7 +1774,7 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1482,7 +1791,7 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1494,11 +1803,31 @@ footer {
     background-color: rgb(83, 83, 83);
 }
 
+.button-about-us {
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-about-us:hover {
+    background-color: rgb(83, 83, 83);
+}
+
 /* Main */
 
 .main-preview {
     background:url(../images/photo_2023-07-29_22-01-05.jpg);
-    height: 47vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1507,37 +1836,36 @@ footer {
     margin: 0;
     color: #fff;
     font-weight: 500;
-    font-size: 25px;
-    margin-left: 40px;
-    padding-top: 50px;
+    font-size: 20px;
+    margin-left: 60px;
+    padding-top: 30px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .img-check-mark1 {
-    height: 16px;
-    margin-left: 40px;
-    margin-top: 20px;
+    height: 12px;
+    margin-left: 60px;
+    margin-top: 15px;
 }
 
 .img-check-mark {
-    height: 16px;
-    margin-left: 40px;
-    margin-top: 15px;
+    height: 12px;
+    margin-left: 60px;
+    margin-top: 10px;
 }
 
 .services-text {
     color: rgb(255, 255, 255);
-    font-size: medium;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
     vertical-align: 3px;
 }
 
 .button-sign-up {
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 60px;
     width: 140px;
-    height: 40px;
+    height: 37px;
     background-color: rgb(66, 69, 253);
     color: rgb(0, 0, 0);
     border: 0;
@@ -1551,6 +1879,10 @@ footer {
 
 .button-sign-up:hover {
     background-color: rgb(99, 115, 255);
+}
+
+.space-main {
+    height: 30px;
 }
 
 /* All servies in one place */
@@ -1887,7 +2219,7 @@ footer {
 
 @media (max-width: 400px) {
     .header {
-        height: 30px;
+        height: 25px;
         background-color: rgb(68, 109, 255);
         display: flex;
         justify-content: space-around;
@@ -1901,15 +2233,15 @@ footer {
     
     .img-gear {
         height: 12px;
-        margin-top: 9px;
+        margin-top: 6px;
         display: block;
     }
     
     .logo-text {
-        margin-top: 8px;
+        margin-top: 5px;
         font-weight: 600;
         font-size:12px;
-        margin-left: 8px;
+        margin-left: 4px;
     }
     
     .extra-information-header {
@@ -1917,13 +2249,13 @@ footer {
     }
     
     .img-clock {
-        height: 8px;
-        margin-top: 10px;
+        height: 10px;
+        margin-top: 7px;
     }
     
     .time-work {
         font-size: 8px;
-        margin-top: 10px;
+        margin-top: 7px;
         font-weight: 500;
         margin-left: 3px;
     }
@@ -1931,15 +2263,15 @@ footer {
     .img-phone {
         margin-left: 10px;
         height: 8px;
-        margin-top: 12px;
+        margin-top: 8px;
     }
     
     .phone-number {
         font-size: 8px;
-        margin-top: 3px;
+        margin-top: 0px;
         margin-bottom: 8px;
         padding-top: 7px;
-        padding-left: 2px;
+        padding-left: 0px;
         padding-right: 8px;
         margin-left: 3px;
         font-weight: 500;
@@ -1951,13 +2283,29 @@ footer {
     .phone-number:hover {
         background: rgb(64, 0, 255);
     }
+
+    /* Menu */
+
+.menu {
+    margin-top: -1px;
+    background-color: rgb(33, 33, 33);
+    padding-right: 25%;
+    padding-left: 25%;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
     /* buttons */
 
 .button-home {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100px;
-    font-size: 12px;
+    font-size: 8px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1973,7 +2321,7 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100px;
-    font-size: 12px;
+    font-size: 8px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -1989,7 +2337,7 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100px;
-    font-size: 12px;
+    font-size: 8px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -2006,7 +2354,7 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100px;
-    font-size: 12px;
+    font-size: 8px;
     font-weight: 500;
     color: rgb(231, 231, 231);
     border-radius: 5px;
@@ -2017,4 +2365,315 @@ footer {
 .button-contacts:hover {
     background-color: rgb(83, 83, 83);
 }
+
+.button-about-us {
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+    font-size: 8px;
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    border-radius: 5px;
+    background: none;
+    border: none;
+}
+
+.button-about-us:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+/* All servies in one place */
+
+.all-services-in-one-place {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title-subtitle-services {
+    margin: 0;
+}
+
+.title-all-services {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitle-all-services {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.images-all-services {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img1-services {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    padding-top: 3px;
+    height: 200px;
+    width: 170px;
+    background:url(../images/rectangle-26-hover.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+.img2-services {
+    margin: 20px;
+    text-align: left;
+    padding-top: 3px;
+    height: 200px;
+    width: 170px;
+    background:url(../images/rectangle-26-hover.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+.img3-services {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    padding-top: 3px;
+    height: 200px;
+    width: 170px;
+    background:url(../images/rectangle-26-hover.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+.title-img-services {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+}
+
+.spans-services {
+    color: #2F88FF;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.text-services {
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 13px;
+}
+
+.button-price-services {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 120px;
+    color: #fff;
+    background-color: #4F88FF;
+    border: none;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.button-price-services:hover {
+    background-color: #2168c5;
+}
+
+/* Why should you trust us? */
+
+.why-should-you-trust-us {
+    height: auto;
+    text-align: center;
+}
+
+.title-why-should-you-trust-us {
+    height: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cards-why-should-you-trust-us {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.card-trust-1 {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(147, 242, 255);
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.card-trust-2 {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(147, 242, 255);
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.card-trust-3 {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(147, 242, 255);
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.card-trust-4 {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(147, 242, 255);
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.cards-text {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.img-cards-trust-1 {
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.img-cards-trust-2 {
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.img-cards-trust-3 {
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.img-cards-trust-4 {
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+/* Interesting information about us */
+
+.about-us {
+    text-align: center;
+}
+
+.img-about-us {
+    display: inline-block;
+    margin-top: 40px;
+    height: 200px;
+}
+
+.information-about-us {
+    text-align: left;
+    width: 280px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.title-about-us {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.subtitle-about-us {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.text-about-us {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/*footer */
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  footer .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer .row {
+    margin-bottom: 20px;
+  }
+  
+  footer .col-md-4 {
+    width: auto;
+  }
+  
+  footer h4 {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  footer form {
+    margin-bottom: 0;
+  }
+  
+  footer input, footer textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  footer input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
 }
